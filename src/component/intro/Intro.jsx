@@ -10,8 +10,8 @@ function Intro() {
     init(textRef.current, {
       showCursor: true,
       backSpeed: 60,
-      backDelay: 2000,
-      strings: ["Web Developer", "Ceramicist"]
+      backDelay: 500,
+      strings: ["Web Developer", "Ceramicist","Economics tutor"]
     });
   }, []);
 
