@@ -1,5 +1,5 @@
 .intro {
-  background-color: white;
+  background-color: rgb(24, 13, 37);
   display: flex;
   
 
@@ -12,9 +12,13 @@
   .left {
     flex: 0.53;
     overflow: hidden;
+    position: relative;
     
 
     .imgContainer {
+      position: absolute;
+      top: 3rem;
+      left: 3rem;
       width: 800px;
       height: 800px;
       line-height: 800px;
@@ -25,7 +29,7 @@
       align-items: flex-end;
       justify-content: center;
       margin: auto;
-     
+      box-shadow:0 0 50px 10px rgb(60, 20, 104);
 
       animation: morph 8s ease-in-out infinite;
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -77,27 +81,42 @@
       @media (max-width: 768px) { 
         padding-left: 0;
         align-items: center;
+
       }
 
       h1 {
         font-size: 3.75rem;
         margin: 10px 0;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 8px #b59dcc;
+        padding: .5rem;
+
 
         @media (max-width: 768px) { 
           font-size: 2.5rem;
+
         }
       }
 
       h3 {
         font-size: 1.875rem;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 8px #b59dcc;
+        padding: 1rem;
+
 
         @media (max-width: 768px) { 
           font-size: 1.25rem;
+          height: 100%;
+
         }
 
         span {
+          letter-spacing: 1px;
           font-size: inherit;
-          color: #27ab1b	;          
+          color: #9786c9	;
+          
+          
         }
 
         .ityped-cursor {            
@@ -118,19 +137,22 @@
     a {
       position: absolute;
       bottom: 15px;
-      width: 20px;
-      height: 20px;
-      left: 40%;
+      width: 25px;
+      height: 25px;
+      left: 45%;
+      overflow: hidden;
       @media (max-width: 768px) { 
-       left: 50%;   
+       left: 47%;   
       }
 
     
 
 
       .downArrow {
-        animation: arrowBlink 2s infinite;
-        
+        font-size: 2rem;
+        animation: arrowBlink 1.5s infinite;
+        color: rgb(107, 46, 157);
+        transform: translateX(-13%);
       }
 
       @keyframes arrowBlink {

@@ -9,6 +9,11 @@
     top:70px;
     scroll-snap-type: y mandatory; //scrollbar snap ไปที่ start 
     scroll-behavior: smooth;
+    transition: .5s;
+
+    &.active{
+        filter: grayscale(100%)
+    }
 
 
     *{

@@ -1,3 +1,159 @@
 .contact{
-    background-color: lightblue;
+    background-color: #130a20;
+
+    .top{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+
+
+        h1{
+            color: #fff;
+            font-size: 4rem;
+            width: 14%;
+            height: 35%;
+            padding: .5rem;
+            text-shadow: 0px 0px 8px #b59dcc;
+
+            @media (max-width: 768px) { 
+                font-size: 3rem;
+                width: auto;
+            }
+
+
+            
+
+        }
+        h2{
+            color: #fff;
+            width: 33%;
+            height: 17%;
+            padding: .5rem;
+            overflow: hidden;
+            text-shadow: 0px 0px 8px #b59dcc;
+
+            @media (max-width: 768px) { 
+                font-size: 1.25rem;
+                width: 85%;
+                height: auto;
+                padding: 15px;
+            }
+
+
+
+        }
+    }
+
+
+
+    .emailForm{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+
+
+        .Form{
+            width: 33%;
+            height: 8.5%;
+            border: 2px solid #600ad7;
+            border-radius: 10px;
+            font-size: 1.25rem;
+            padding: 1rem;
+            outline-style: none;
+            transition: 1s;
+
+            @media (max-width: 768px) { 
+                font-size: 1rem;
+                width: 80%;
+                height: auto;
+            }
+
+
+
+            &:focus{
+                width: 37%;
+                height: 11%;
+
+                @media (max-width: 768px) { 
+                    font-size: 1.1rem;
+                    width: 85%;
+                    height: auto;
+                }
+    
+
+            }
+
+        }
+
+        .FormText{
+            outline-style: none;
+            padding: 1rem;
+            border: 2px solid #600ad7;
+            border-radius: 10px;
+            width: 33%;
+            height: 25%;
+            font-size: 1.25rem;
+            transition: 1s;
+
+            @media (max-width: 768px) { 
+                font-size: 1rem;
+                width: 80%;
+                height: auto;
+            }
+
+
+
+            &:focus{
+                width: 40%;
+                height: 30%;
+
+                @media (max-width: 768px) { 
+                    font-size: 1.1rem;
+                    width: 85%;
+                    height: auto;
+                }
+    
+
+                
+            }
+
+
+
+        }
+
+        .Btn{
+            width: 10%;
+            height: 7%;
+            border:2px solid #58179c;
+            background-color: rgba($color: #ffffff, $alpha: 0.0);
+            text-decoration: none;
+            padding: .7rem 1.8rem;
+            border-radius: .4rem;
+            color: #fff;
+            font-size: 1rem;
+            transition: all .3s ease-in-out;
+
+            @media (max-width: 768px) { 
+                font-size: 1rem;
+                width: 40%;
+                height: auto;
+            }
+
+  
+            &:hover{
+              cursor: pointer;  
+              background-color: #360b63;
+              // box-shadow: 0 4px 8px 0 rgba(114, 33, 171, 0.2), 0 6px 20px 0 rgba(95, 35, 159, 0.19);
+              box-shadow:0px 0px 20px 0px rgb(151, 67, 184);
+            }  
+  
+        }
+    }
 }
