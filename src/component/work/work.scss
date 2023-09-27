@@ -79,6 +79,7 @@
                 height: 90%;
                 width: 33%;     
                 text-decoration: none;
+                overflow-y: hidden;
 
     
  
@@ -113,7 +114,8 @@
                 @media (max-width: 768px) {
                     height: 33%;
                     width: 70%;
-                    // flex-direction: column;
+                    overflow-y: hidden;
+
                     
                     
     
@@ -132,7 +134,7 @@
                     transition: 0.3s;
                     background-image: url(work2.png);
                     background-size: 100.1%;
-                    overflow: hidden;
+                    overflow-y: hidden;
 
                     @media (max-width: 768px) { 
                         width: 90%;
