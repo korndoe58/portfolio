@@ -1,6 +1,8 @@
 .intro {
   background-color: rgb(24, 13, 37);
   display: flex;
+  overflow-x: hidden;
+  width: 100vw;
   
 
   @media (max-width: 768px) {      

@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { init } from "ityped";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
+
 import "./intro.scss";
 function Intro() {
   const textRef = useRef();

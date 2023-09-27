@@ -1,5 +1,6 @@
 .app{
     height: 100vh;
+
 }
 .sections{
     width: 100%;
@@ -21,6 +22,7 @@
         height: calc(100vh - 70px);
         scroll-snap-align: start ;
         box-sizing: border-box;
+        
         ::-webkit-scrollbar{
             display: none;
         }

@@ -10,6 +10,7 @@ import { useState } from "react";
 
 
 
+
 function App() {
   const [menuOpen,setMenuopen] = useState(false)
   return (
@@ -22,7 +23,6 @@ function App() {
           <Portfolio/>
           <Work/>
           <EmailRestAPI/>
-
         </div>
 
       </div>

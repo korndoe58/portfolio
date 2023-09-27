@@ -2,12 +2,15 @@ import "./contact.scss"
 
 import axios from 'axios';
 import React, { useState } from 'react'
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const EmailRestAPI = () => {
-
+  const [sent, setSent] = useState('Sent Email')
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const isInputEmpty = name.trim() === '';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -56,6 +59,7 @@ const EmailRestAPI = () => {
           placeholder="Your Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          required
         />
         <input
           className="Form"
@@ -63,6 +67,7 @@ const EmailRestAPI = () => {
           placeholder="Your Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <textarea
           className="FormText"
@@ -71,9 +76,10 @@ const EmailRestAPI = () => {
           rows="10"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          required
         >
         </textarea>
-        <button  className="Btn" type="submit">Send Email</button>
+        <button  className="Btn" type="submit" disabled={isInputEmpty} onClick={()=>{ setSent("sent ! ")}} >{sent}</button>
       </form>
     </div>
   )
