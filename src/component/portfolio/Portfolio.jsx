@@ -6,7 +6,7 @@ export default function portfolio() {
    
     <div className="portfolio" id="portfolio">
       
-        <h1 className="about" >Aboutme</h1>
+        <h1 className="about" >About me</h1>
         <div className="container">
           <div className="left">
             <div className="skill">

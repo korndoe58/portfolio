@@ -36,6 +36,20 @@
         color: white;
         width: 60%;
 
+        .tel{
+            display: none;
+
+            @media (max-width: 768px) { 
+                font-size: 1.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                }
+
+        }
+
+
         li{
             margin-bottom: 25px;
 
