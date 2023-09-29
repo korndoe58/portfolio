@@ -30,6 +30,12 @@
                     font-size: 2.5rem;
                     width: auto;
                 }
+
+                @media (min-width: 768px) and (max-width: 1400px) {
+                    font-size: 3rem;
+                    width: 30%;
+                }
+    
     
 
                 
@@ -47,7 +53,13 @@
                     width: 85%;
                     line-height: 2rem;
                     height: 50%;
-                }    
+                }
+                
+                @media (min-width: 768px) and (max-width: 1400px) {
+                    font-size: 1.3rem;
+                    width: 70%;
+                }
+
 
 
 
