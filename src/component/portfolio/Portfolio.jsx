@@ -53,7 +53,7 @@ export default function portfolio() {
             <div className="text">
               <h4>As a multifaceted professional, I am a front-end developer, ceramicist, and economic tutor. My passion is to create captivating digital interfaces, shape clay into expressive art, and impart economic wisdom. My purpose is to infuse creativity into technology, artistry into ceramics, and knowledge into minds, enriching lives through these diverse avenues of expression.</h4>
             </div>
-            <a href="https://drive.google.com/uc?id=1PQZQGitszIFoFpXi2NiELYAOIeea_jCb&export=download">Download CV</a>
+            <a href="https://drive.google.com/u/0/uc?id=1ji5SEqGujSXOZ9FJ5deJhghtbZbK0Ch6&export=download">Download CV</a>
           </div>
         </div>
 
